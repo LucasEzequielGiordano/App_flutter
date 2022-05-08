@@ -41,6 +41,7 @@ class LoginScreen extends StatelessWidget {
                             hintText: 'Ingrese su correo'),
                       ),
                       TextFormField(
+                        obscureText: true,
                         decoration: const InputDecoration(
                             icon: Icon(Icons.password_outlined),
                             hintText: 'Contraseña'),
